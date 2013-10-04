@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05162FF317FE80FE005688EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05162FF217FE80FE005688EB /* UIKit.framework */; };
+		05162FF517FE80FE005688EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05162FF417FE80FE005688EB /* Foundation.framework */; };
+		05162FF717FE80FE005688EB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05162FF617FE80FE005688EB /* CoreGraphics.framework */; };
+		05162FFD17FE80FE005688EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05162FFB17FE80FE005688EB /* InfoPlist.strings */; };
+		05162FFF17FE80FE005688EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05162FFE17FE80FE005688EB /* main.m */; };
+		0516300317FE80FE005688EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0516300217FE80FE005688EB /* AppDelegate.m */; };
+		0516300517FE80FE005688EB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0516300417FE80FE005688EB /* Default.png */; };
+		0516300717FE80FE005688EB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0516300617FE80FE005688EB /* Default@2x.png */; };
+		0516300917FE80FE005688EB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0516300817FE80FE005688EB /* Default-568h@2x.png */; };
+		0516300C17FE80FE005688EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0516300B17FE80FE005688EB /* ViewController.m */; };
+		0516300F17FE80FE005688EB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0516300D17FE80FE005688EB /* ViewController.xib */; };
+		0516301717FE80FE005688EB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0516301617FE80FE005688EB /* SenTestingKit.framework */; };
+		0516301817FE80FE005688EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05162FF217FE80FE005688EB /* UIKit.framework */; };
+		0516301917FE80FE005688EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05162FF417FE80FE005688EB /* Foundation.framework */; };
+		0516302117FE80FE005688EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0516301F17FE80FE005688EB /* InfoPlist.strings */; };
+		0516302417FE80FE005688EB /* UDTP_ObjcClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0516302317FE80FE005688EB /* UDTP_ObjcClientTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0516301A17FE80FE005688EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05162FE717FE80FE005688EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05162FEE17FE80FE005688EB;
+			remoteInfo = "UDTP-ObjcClient";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05162FEF17FE80FE005688EB /* UDTP-ObjcClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UDTP-ObjcClient.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05162FF217FE80FE005688EB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		05162FF417FE80FE005688EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		05162FF617FE80FE005688EB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		05162FFA17FE80FE005688EB /* UDTP-ObjcClient-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UDTP-ObjcClient-Info.plist"; sourceTree = "<group>"; };
+		05162FFC17FE80FE005688EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05162FFE17FE80FE005688EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0516300017FE80FE005688EB /* UDTP-ObjcClient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UDTP-ObjcClient-Prefix.pch"; sourceTree = "<group>"; };
+		0516300117FE80FE005688EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0516300217FE80FE005688EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0516300417FE80FE005688EB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0516300617FE80FE005688EB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0516300817FE80FE005688EB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0516300A17FE80FE005688EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0516300B17FE80FE005688EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0516300E17FE80FE005688EB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		0516301517FE80FE005688EB /* UDTP-ObjcClientTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UDTP-ObjcClientTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0516301617FE80FE005688EB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0516301E17FE80FE005688EB /* UDTP-ObjcClientTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UDTP-ObjcClientTests-Info.plist"; sourceTree = "<group>"; };
+		0516302017FE80FE005688EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0516302217FE80FE005688EB /* UDTP_ObjcClientTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UDTP_ObjcClientTests.h; sourceTree = "<group>"; };
+		0516302317FE80FE005688EB /* UDTP_ObjcClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UDTP_ObjcClientTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05162FEC17FE80FE005688EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05162FF317FE80FE005688EB /* UIKit.framework in Frameworks */,
+				05162FF517FE80FE005688EB /* Foundation.framework in Frameworks */,
+				05162FF717FE80FE005688EB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0516301117FE80FE005688EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0516301717FE80FE005688EB /* SenTestingKit.framework in Frameworks */,
+				0516301817FE80FE005688EB /* UIKit.framework in Frameworks */,
+				0516301917FE80FE005688EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05162FE617FE80FE005688EB = {
+			isa = PBXGroup;
+			children = (
+				05162FF817FE80FE005688EB /* UDTP-ObjcClient */,
+				0516301C17FE80FE005688EB /* UDTP-ObjcClientTests */,
+				05162FF117FE80FE005688EB /* Frameworks */,
+				05162FF017FE80FE005688EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05162FF017FE80FE005688EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05162FEF17FE80FE005688EB /* UDTP-ObjcClient.app */,
+				0516301517FE80FE005688EB /* UDTP-ObjcClientTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05162FF117FE80FE005688EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05162FF217FE80FE005688EB /* UIKit.framework */,
+				05162FF417FE80FE005688EB /* Foundation.framework */,
+				05162FF617FE80FE005688EB /* CoreGraphics.framework */,
+				0516301617FE80FE005688EB /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05162FF817FE80FE005688EB /* UDTP-ObjcClient */ = {
+			isa = PBXGroup;
+			children = (
+				0516300117FE80FE005688EB /* AppDelegate.h */,
+				0516300217FE80FE005688EB /* AppDelegate.m */,
+				0516300A17FE80FE005688EB /* ViewController.h */,
+				0516300B17FE80FE005688EB /* ViewController.m */,
+				0516300D17FE80FE005688EB /* ViewController.xib */,
+				05162FF917FE80FE005688EB /* Supporting Files */,
+			);
+			path = "UDTP-ObjcClient";
+			sourceTree = "<group>";
+		};
+		05162FF917FE80FE005688EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05162FFA17FE80FE005688EB /* UDTP-ObjcClient-Info.plist */,
+				05162FFB17FE80FE005688EB /* InfoPlist.strings */,
+				05162FFE17FE80FE005688EB /* main.m */,
+				0516300017FE80FE005688EB /* UDTP-ObjcClient-Prefix.pch */,
+				0516300417FE80FE005688EB /* Default.png */,
+				0516300617FE80FE005688EB /* Default@2x.png */,
+				0516300817FE80FE005688EB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0516301C17FE80FE005688EB /* UDTP-ObjcClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				0516302217FE80FE005688EB /* UDTP_ObjcClientTests.h */,
+				0516302317FE80FE005688EB /* UDTP_ObjcClientTests.m */,
+				0516301D17FE80FE005688EB /* Supporting Files */,
+			);
+			path = "UDTP-ObjcClientTests";
+			sourceTree = "<group>";
+		};
+		0516301D17FE80FE005688EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0516301E17FE80FE005688EB /* UDTP-ObjcClientTests-Info.plist */,
+				0516301F17FE80FE005688EB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05162FEE17FE80FE005688EB /* UDTP-ObjcClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0516302717FE80FE005688EB /* Build configuration list for PBXNativeTarget "UDTP-ObjcClient" */;
+			buildPhases = (
+				05162FEB17FE80FE005688EB /* Sources */,
+				05162FEC17FE80FE005688EB /* Frameworks */,
+				05162FED17FE80FE005688EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UDTP-ObjcClient";
+			productName = "UDTP-ObjcClient";
+			productReference = 05162FEF17FE80FE005688EB /* UDTP-ObjcClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0516301417FE80FE005688EB /* UDTP-ObjcClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0516302A17FE80FE005688EB /* Build configuration list for PBXNativeTarget "UDTP-ObjcClientTests" */;
+			buildPhases = (
+				0516301017FE80FE005688EB /* Sources */,
+				0516301117FE80FE005688EB /* Frameworks */,
+				0516301217FE80FE005688EB /* Resources */,
+				0516301317FE80FE005688EB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0516301B17FE80FE005688EB /* PBXTargetDependency */,
+			);
+			name = "UDTP-ObjcClientTests";
+			productName = "UDTP-ObjcClientTests";
+			productReference = 0516301517FE80FE005688EB /* UDTP-ObjcClientTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05162FE717FE80FE005688EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Kevin Trinh";
+			};
+			buildConfigurationList = 05162FEA17FE80FE005688EB /* Build configuration list for PBXProject "UDTP-ObjcClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 05162FE617FE80FE005688EB;
+			productRefGroup = 05162FF017FE80FE005688EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05162FEE17FE80FE005688EB /* UDTP-ObjcClient */,
+				0516301417FE80FE005688EB /* UDTP-ObjcClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05162FED17FE80FE005688EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05162FFD17FE80FE005688EB /* InfoPlist.strings in Resources */,
+				0516300517FE80FE005688EB /* Default.png in Resources */,
+				0516300717FE80FE005688EB /* Default@2x.png in Resources */,
+				0516300917FE80FE005688EB /* Default-568h@2x.png in Resources */,
+				0516300F17FE80FE005688EB /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0516301217FE80FE005688EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0516302117FE80FE005688EB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0516301317FE80FE005688EB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05162FEB17FE80FE005688EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05162FFF17FE80FE005688EB /* main.m in Sources */,
+				0516300317FE80FE005688EB /* AppDelegate.m in Sources */,
+				0516300C17FE80FE005688EB /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0516301017FE80FE005688EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0516302417FE80FE005688EB /* UDTP_ObjcClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0516301B17FE80FE005688EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05162FEE17FE80FE005688EB /* UDTP-ObjcClient */;
+			targetProxy = 0516301A17FE80FE005688EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05162FFB17FE80FE005688EB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05162FFC17FE80FE005688EB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0516300D17FE80FE005688EB /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0516300E17FE80FE005688EB /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		0516301F17FE80FE005688EB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0516302017FE80FE005688EB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0516302517FE80FE005688EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0516302617FE80FE005688EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0516302817FE80FE005688EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UDTP-ObjcClient/UDTP-ObjcClient-Prefix.pch";
+				INFOPLIST_FILE = "UDTP-ObjcClient/UDTP-ObjcClient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0516302917FE80FE005688EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UDTP-ObjcClient/UDTP-ObjcClient-Prefix.pch";
+				INFOPLIST_FILE = "UDTP-ObjcClient/UDTP-ObjcClient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0516302B17FE80FE005688EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UDTP-ObjcClient.app/UDTP-ObjcClient";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UDTP-ObjcClient/UDTP-ObjcClient-Prefix.pch";
+				INFOPLIST_FILE = "UDTP-ObjcClientTests/UDTP-ObjcClientTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0516302C17FE80FE005688EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UDTP-ObjcClient.app/UDTP-ObjcClient";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UDTP-ObjcClient/UDTP-ObjcClient-Prefix.pch";
+				INFOPLIST_FILE = "UDTP-ObjcClientTests/UDTP-ObjcClientTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05162FEA17FE80FE005688EB /* Build configuration list for PBXProject "UDTP-ObjcClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0516302517FE80FE005688EB /* Debug */,
+				0516302617FE80FE005688EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0516302717FE80FE005688EB /* Build configuration list for PBXNativeTarget "UDTP-ObjcClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0516302817FE80FE005688EB /* Debug */,
+				0516302917FE80FE005688EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0516302A17FE80FE005688EB /* Build configuration list for PBXNativeTarget "UDTP-ObjcClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0516302B17FE80FE005688EB /* Debug */,
+				0516302C17FE80FE005688EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05162FE717FE80FE005688EB /* Project object */;
+}
