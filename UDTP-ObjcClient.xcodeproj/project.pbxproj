@@ -23,6 +23,7 @@
 		0516301917FE80FE005688EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05162FF417FE80FE005688EB /* Foundation.framework */; };
 		0516302117FE80FE005688EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0516301F17FE80FE005688EB /* InfoPlist.strings */; };
 		0516302417FE80FE005688EB /* UDTP_ObjcClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0516302317FE80FE005688EB /* UDTP_ObjcClientTests.m */; };
+		0516302F17FE827D005688EB /* udtp.m in Sources */ = {isa = PBXBuildFile; fileRef = 0516302E17FE827D005688EB /* udtp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		0516302017FE80FE005688EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0516302217FE80FE005688EB /* UDTP_ObjcClientTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UDTP_ObjcClientTests.h; sourceTree = "<group>"; };
 		0516302317FE80FE005688EB /* UDTP_ObjcClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UDTP_ObjcClientTests.m; sourceTree = "<group>"; };
+		0516302D17FE827D005688EB /* udtp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = udtp.h; sourceTree = "<group>"; };
+		0516302E17FE827D005688EB /* udtp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = udtp.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				0516300217FE80FE005688EB /* AppDelegate.m */,
 				0516300A17FE80FE005688EB /* ViewController.h */,
 				0516300B17FE80FE005688EB /* ViewController.m */,
+				0516302D17FE827D005688EB /* udtp.h */,
+				0516302E17FE827D005688EB /* udtp.m */,
 				0516300D17FE80FE005688EB /* ViewController.xib */,
 				05162FF917FE80FE005688EB /* Supporting Files */,
 			);
@@ -273,6 +278,7 @@
 				05162FFF17FE80FE005688EB /* main.m in Sources */,
 				0516300317FE80FE005688EB /* AppDelegate.m in Sources */,
 				0516300C17FE80FE005688EB /* ViewController.m in Sources */,
+				0516302F17FE827D005688EB /* udtp.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
